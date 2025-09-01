@@ -1,0 +1,21 @@
+body {text-align: center;
+background:linear-gradient(to bottom,#000000,
+#3b3b3b,
+#818181);
+height: 100vh;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed}
+
+.fir h1 {color:#1d1d1d;
+margin-top:40px ;
+background: linear-gradient(65deg,black,black,black,black,gold,gold,black,black,black,black,black,black,black,black,black);
+background-size: 450%;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+display: inline-block;
+animation: moveColors 4s linear infinite;}
+@keyframes moveColors {
+    0% {background-position: 0% 50%;}
+    100% {background-position: 100% 50%;}
+}
