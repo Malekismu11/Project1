@@ -28,7 +28,10 @@ font-size: 40px;}
 background-color: rgba(255, 255, 255, 0.096);
 border: 1px rgb(55, 55, 55) solid;
 border-radius: 100px;
-padding: 20px 80px;}
+padding: 20px 80px;
+word-wrap: break-word;
+max-width: 80%;
+box-sizing: border-box;}
 
 .sec legend{color: rgb(189, 160, 0);
 text-align: left;
