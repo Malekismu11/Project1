@@ -24,7 +24,7 @@ font-size: 40px;}
 
 .sec {text-align: center;
 box-sizing: border-box;
- padding: 0 50px;}
+ padding: 0 30px;}
 
 .sec fieldset{display:inline-block;
 background-color: rgba(255, 255, 255, 0.096);
@@ -32,7 +32,7 @@ border: 1px rgb(55, 55, 55) solid;
 border-radius: 100px;
 padding: 20px 80px;
 word-break: break-all;
-max-width: 80%;
+max-width: 90%;
 box-sizing: border-box;
 overflow-wrap: break-word;}
 
