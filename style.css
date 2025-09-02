@@ -29,9 +29,10 @@ background-color: rgba(255, 255, 255, 0.096);
 border: 1px rgb(55, 55, 55) solid;
 border-radius: 100px;
 padding: 20px 80px;
-word-wrap: break-word;
+word-break: break-all;
 max-width: 80%;
-box-sizing: border-box;}
+box-sizing: border-box;
+overflow-wrap: break-word;}
 
 .sec legend{color: rgb(189, 160, 0);
 text-align: left;
