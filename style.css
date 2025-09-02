@@ -1,4 +1,4 @@
-body {text-align: center;
+body {
 background:linear-gradient(to bottom,#000000,
 #3b3b3b,
 #818181);
@@ -6,16 +6,18 @@ height: 100vh;
 background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed}
-
-.fir h1 {color:#1d1d1d;
+.fir {text-align: center;}
+.fir h1 {color:#000000;
 margin-top:40px ;
-background: linear-gradient(65deg,black,black,black,black,gold,gold,black,black,black,black,black,black,black,black,black);
-background-size: 450%;
+background: linear-gradient(45deg,black,black,black,black,black,black,rgb(189, 160, 0),rgb(189, 160,0),black,black,black,black,black,black,black,black,black,black);
+background-size: 480%;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 display: inline-block;
-animation: moveColors 4s linear infinite;}
+animation: moveColors 4.5s linear infinite;
+font-family: Encode Sans SC;
+font-size: 40px;}
+
 @keyframes moveColors {
-    0% {background-position: 0% 50%;}
-    100% {background-position: 100% 50%;}
-}
+    0% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}}
