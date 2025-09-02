@@ -30,7 +30,7 @@ box-sizing: border-box;
 background-color: rgba(255, 255, 255, 0.096);
 border: 1px rgb(55, 55, 55) solid;
 border-radius: 100px;
-padding: 20px 80px;
+padding: 20px 60px;
 word-break: break-all;
 max-width: 90%;
 box-sizing: border-box;
@@ -39,4 +39,4 @@ overflow-wrap: break-word;}
 .sec legend{color: rgb(189, 160, 0);
 text-align: left;
 text-shadow: 2px 2px 10px gold;
-margin-left: -40px;} 
+margin-left: -25px;} 
