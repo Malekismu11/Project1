@@ -23,8 +23,9 @@ font-size: 40px;}
     100% {background-position: 0% 50%;}}
 
 .sec fieldset{display: flex;
-justify-content: center;
 margin-left: 300px;
-margin-right: 300px;}
+margin-right: 300px;
+justify-content: space-evenly;
+align-items: space-evenly;}
 
 .sec legend{color: rgb(189, 160, 0);}
