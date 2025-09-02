@@ -1,7 +1,7 @@
 body {
 background:linear-gradient(to bottom,#000000,
-#3b3b3b,
-#818181);
+#242424,
+#595959);
 height: 100vh;
 background-position: center;
 background-repeat: no-repeat;
@@ -21,3 +21,10 @@ font-size: 40px;}
 @keyframes moveColors {
     0% {background-position: 100% 50%;}
     100% {background-position: 0% 50%;}}
+
+.sec fieldset{display: flex;
+justify-content: center;
+margin-left: 300px;
+margin-right: 300px;}
+
+.sec legend{color: rgb(189, 160, 0);}
