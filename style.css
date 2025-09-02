@@ -1,7 +1,7 @@
 body {
 background:linear-gradient(to bottom,#000000,
-#242424,
-#595959);
+#151515,
+#2f2f2f);
 height: 100vh;
 background-position: center;
 background-repeat: no-repeat;
@@ -25,7 +25,9 @@ font-size: 40px;}
 .sec {text-align: center;}
 
 .sec fieldset{display:inline-block;
-margin:0 auto;}
+margin:0 auto;
+background-color: rgba(255, 255, 255, 0.096);
+border: 1px rgb(55, 55, 55) solid;}
 
 .sec legend{color: rgb(189, 160, 0);
 text-align: left;}
